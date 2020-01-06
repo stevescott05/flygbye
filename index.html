@@ -4,44 +4,60 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TheFlyBye.com</title>
+  <title>Fly'g'bye</title>
   <style>
     body {
-      font-family:'Courier New', Courier, monospace;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-size: larger;
-      color: rgb(121, 121, 121);
+      color: rgb(255, 255, 255);
     }
 
     #container {
       position: fixed;
-      width: 800px;
+      width: 600px;
       height: 200px;
       background-color: #ffffff;
       top: 50%;
       left: 50%;
-      margin-left: -400px;
-      margin-top: -150px;
+      margin-left: -300px;
+      margin-top: -200px;
       text-align: center;
-      display: table;
-      border-width: 1px 0px;
-      border-color: rgb(235, 235, 235);
-      border-style: solid;
+      display: inline-table;
+      border-width: 3px 0px;
+      border-color: rgb(255, 81, 0);
+      border-style: solid;      
     }
 
-    #box {
-      display: table-cell;
+    #title {
+      display:table-cell;
       vertical-align: middle;
+      width: 40%;
+      padding:10px;
+      font-style:italic;
+      font-weight: bold;
+      font-size: 3em;            
+      background-color: rgb(63, 63, 63);
     }
+
+    #message {
+      display:table-cell;
+      padding: 10px;
+      vertical-align: middle;
+      background-color: rgb(128, 128, 128);
+    }
+    
   </style>
 </head>
 
 <body>
   <div id="container">
-    <div id="box">
-      <p>TheFlyBye.com and its new product are currently under construction.</p>
-
-      <p><em>Check back soon!</em></p> 
+    <div id="title">
+      <p>Fly'g'bye</p>
     </div>  
+    <div id="message">      
+      <p>Our new site and product are currently under construction.</p>
+      <p><em>Check back soon!</em></p>       
+    </div>         
   </div>
 </body>
 </html>
